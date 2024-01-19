@@ -3,7 +3,6 @@
 <span style="color: rgb(255, 76, 65);">**特别注意：**</span>下面两个压缩包文件一定要下载，后面会用到。
 
 <br>
-<br>
 
 [1.安装Microbit驱动](1.安装Microbit驱动.zip)
 
@@ -117,7 +116,7 @@ micro USB线供电
 
 ### （2）MakeCode 编辑器
 
-在Google Chrome访问链接：https://makecode.microbit.org/ ， 打开MakeCode在线版本
+在Google Chrome访问链接：[https://makecode.microbit.org/](https://makecode.microbit.org/)  ，打开MakeCode在线版本
 
 ![Img](./media/img-20230417113322.png)
 
@@ -128,7 +127,8 @@ micro USB线供电
 在代码编辑区中，有两个固定的指令方块“**当开机时**”和“**无限循环**”。 
 上电或复位后，“**当开机时**”指令方块中的代码将仅执行一次；并且“**无限循环**”指令方块中的代码将循环执行。
 
-### （3）快速下载                                                           
+### （3）快速下载   
+                                                        
 使用MakeCode的浏览器版本下载编写好的代码程序可能需要更多步骤。 但是，如果您将Google Chrome 用于Android，ChromeOS，Linux，macOS和Windows 10系统，则可以实现快速下载功能。 
 
 在这里，我们使用Chrome的webUSB功能，该功能允许网页访问您的Micro USB硬件设备。 我们将按照以下步骤完成Micro：bit设备与网页的连接和配对。 
@@ -167,11 +167,13 @@ micro USB线供电
 
 设备连接成功后，单击“**下载**”按钮，程序将直接下载到Micro:bit主板。
 
-![Img](./media/img-20230417131647.png)
+![Img](./media/img-202304171315282.png)
 
-<span style="color: rgb(255, 76, 65);">注意：有的系统不支持快速下载方式，比如在电脑的设备管理器中可以看到在线驱动CMSIS-DAP安装不成功就不支持快速下载；需要选择其它程序上传方式。比如：**右键单击并选择“发送到→MICROBIT（E）”将“hex”文件拷贝到Micro:bit主板。** 等程序上传方式。</span>
+<span style="color: rgb(255, 76, 65);">注意：有的系统不支持快速下载方式，比如在电脑的设备管理器中可以看到在线驱动CMSIS-DAP安装不成功就不支持快速下载,，需要选择其它程序上传方式。比如：**右键单击并选择“发送到→MICROBIT（E）”将“hex”文件拷贝到Micro:bit主板。** 等程序上传方式。</span>
 <br>
 <br>
+
+![Img](./media/img-20230417131647.png)
 
 ![Img](./media/img-20230417114305.png)
 
@@ -227,29 +229,29 @@ micro USB线供电
 
 对于复杂的项目，建议通过导入我们提供的十六进制代码文件来完成项目。
 
-接下来，我们以“心跳”项目为例，介绍如何加载代码。
+接下来，我们以“心跳”项目为例，介绍如何通过“**导入**”来加载代码。
 
 打开Web版本MakeCode编辑器或离线版本MakeCode编辑器，单击“**导入**”。
 
 ![Img](./media/img-20230417132422.png)
 
-在弹出的对话框中，单击“**导入文件**”。
+在弹出的对话框中，单击“**导入文件**”，然后点击“**Choose File**”。
 
 ![Img](./media/img-20230417132446.png)
 
 ![Img](./media/img-20230417132535.png)
 
-选择文件“ \microbit-心跳.hex”。 然后点击“继续！√”。
+选择文件 “ microbit-心跳.hex ” ，选中之后单击“打开”。 然后点击“继续！√”。
 
 ![Img](./media/img-20230417132809.png)
 
 ![Img](./media/img-20230417132902.png)
 
-除了上述将提供的项目代码程序文件直接导入到Makecode编译器中的方法之外，也可以将我们提供的项目代码程序文件直接拖入到Makecode编译器中的代码编辑区，如下图所示：
+除了上述将提供的项目代码程序文件 “ microbit-心跳.hex ” 直接导入到Makecode编译器中的方法之外，也可以将我们提供的项目代码程序文件 “ microbit-心跳.hex ” 直接拖入到Makecode编译器中的代码编辑区，如下图所示：
 
 ![Img](./media/img-20230417133238.png)
 
-几秒钟后，项目成功加载。
+几秒钟后，项目代码成功加载。
 
 ![Img](./media/img-20230417131528.png)
 
